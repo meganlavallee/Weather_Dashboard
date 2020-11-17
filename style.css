@@ -5,8 +5,13 @@
 
 .search {
     background-color: aquamarine;
+    padding-top: 20mm;
 }
 
 .btn {
     background-color: blue;
+}
+
+.weather {
+    width: 80px;
 }
