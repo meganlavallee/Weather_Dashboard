@@ -1,46 +1,32 @@
-# 06 Server-Side APIs: Weather Dashboard
+Introduction:
+Welcome to a fun quiz about photography!  Ever wondering about photography history?  Well now is your chance!  Take the quiz and find fun facts. 
 
-Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+User Story:
+The user will be able to go through a series of questions and answers that will mark them as right or wrong. The user is timed. 
 
-Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
+Technological Outline:
+HTML, CSS, and a Script sheet were made for the project to begin.  As the HTML was being created the CSS was going along as needed with styling to make the webpage pretty.  Javascript was added into the mix as soon as everything with the other two pages were fixed.   
 
-## User Story
+Division of Labor:
+I, Megan, soley did all work for this.  
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+Conclusion:
+This quiz is a great way to gain knowledge about things you might never have known anything about, early photography. 
 
-## Acceptance Criteria
+Deployment:
+Photography quiz deployment will be on webpage through Github. Users will be able to view through webpage listed down below as well. 
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
-```
+Conclusion:
+Photography is an interesting topic that has evolved a lot during it's lifetime and new advances are always on the horizon as technology changes rapidly in day to day life.  Learning about older techniques in photography is interesting and eye opening from what we used to have to what the majority uses for cameras today.  
 
-The following image demonstrates the application functionality:
 
-![weather dashboard demo](./Assets/06-server-side-apis-homework-demo.png)
+Link to deployed app
+https://meganlavallee.github.io/Quiz_Time/
 
-## Review
+Contact Information: 
+Megan Lavallee
+megan.lavallee@yahoo.com
+719-321-8559
 
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Licensing Agreement:
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>
