@@ -10,14 +10,11 @@ HTML, CSS, and a Script sheet were made for the project to begin.  As the HTML w
 Division of Labor:
 I, Megan, soley did all work for this.  
 
-Conclusion:
-This weather platform is a good way to see anything you might need to know about weather, temperature, and climate at a glance. 
-
 Deployment:
 Weather Dashboard deployment will be on webpage through Github. Users will be able to view through webpage listed down below as well. 
 
 Conclusion:
-Weather impacts us as humans in our day to day lives.  Viewing the weather daily before heading out to work or school or just out can be helpful when planning what to wear outside.  Getting to hot or to cold isn't a fun experience for anyone and can ruin an entire day.  
+Weather impacts us as humans in our day to day lives.  Viewing the weather daily before heading out to work or school or just out can be helpful when planning what to wear outside.  Getting to hot or to cold isn't a fun experience for anyone and can ruin an entire day.  This weather platform is a good way to see anything you might need to know about weather, temperature, and climate at a glance. 
 
 
 Link to deployed app
