@@ -1,47 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </head>
-
-<!-- Navbar content -->
+<body>
+<!-- NAVBAR -->
 <nav class="navbar" id="Navbar" style="background-color: rgb(27, 27, 32);">
     <span class="navbar-text mx-auto text-white">
-        The Weather Report
+        Weather Dashboard
     </span>
 </nav>
-
-<body>
-    <!-- Search Button -->
-    <header class="search">
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" id="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search for a City</button>
-        </form>
-    </header>
-
-
-    <div class="card" style="width: 18rem;">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">San Diego, CA</li>
-            <li class="list-group-item">Austin, TX</li>
-            <li class="list-group-item">New York, New York</li>
-        </ul>
-    </div>
-    <div class="card mb-3" id="weather" style="width: 40rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Town</h5>
-            <p class="card-text">Weather.</p>
-        </div>
-    </div>
+<!-- LEFT SIDE -->
+<div class="leftside" id="leftside"
+    <!-- SEARCH BAR -->
+    <!-- LIST OF CITIES -->
+<!-- RIGHT SIDE -->
+    <!-- PICKED CITY -->
+    <!-- 7 DAY FORECAST -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
-
-<script></script>
-
 </html>

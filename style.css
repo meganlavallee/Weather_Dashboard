@@ -1,18 +1,4 @@
 .navbar {
-    width: 80%;
-    height: 80%;
-}
-
-.search {
-    background-color: aquamarine;
-    padding-top: 20mm;
-    background-color: green;
-}
-
-.btn {
-    background-color: blue;
-}
-
-.weather {
-    width: 80px;
+    width: 100%;
+    height: 100%;
 }
