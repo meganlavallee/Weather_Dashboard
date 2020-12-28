@@ -1,22 +1,45 @@
 /* NAVBAR */
 .navbar {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* LEFT SIDE */
-
-    /* SEARCH BAR */
-.search{
-    padding-top: 5%;
-    padding-left: 5%;
+.leftside {
+  background-color: lightgrey;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5%;
 }
-    /* LIST OF CITIES */
-#majorcities{
-    padding-left: 5%;
+
+/* SEARCH BAR */
+.search {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/* LIST OF CITIES */
+#majorcities {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  float: left;
+}
+
+#yourcities{
+    padding-right: 10%;
+    padding-left: 10%;
     padding-top: 2%;
+    float: right;
 }
 
 /* RIGHT SIDE */
-    /* PICKED CITY */
-    /* 7 DAY FORECAST */
+
+/* PICKED CITY */
+.jumbotron {
+  padding-bottom: 5%;
+}
+/* 7 DAY FORECAST */
+.row {
+  background-color: lightgrey;
+}
