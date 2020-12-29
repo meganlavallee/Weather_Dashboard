@@ -45,7 +45,13 @@ $ npm start
 Weather impacts us as humans in our day to day lives.  Viewing the weather daily before heading out to work or school or just out can be helpful when planning what to wear outside.  Getting to hot or to cold isn't a fun experience for anyone and can ruin an entire day.  This weather platform is a good way to see anything you might need to know about weather, temperature, and climate at a glance.
 
 ## Demos
-https://youtu.be/ex5ZrGQYiPE 
+![image](https://user-images.githubusercontent.com/73404164/103307273-e0497a80-49cc-11eb-986b-33d7366c3bf6.png)
+
+![image](https://user-images.githubusercontent.com/73404164/103307320-f5bea480-49cc-11eb-9c2c-a0f0d43510ff.png)
+
+![image](https://user-images.githubusercontent.com/73404164/103307344-04a55700-49cd-11eb-98d7-60dc29a641de.png)
+
+![video]https://youtu.be/ex5ZrGQYiPE 
 
 ## Link 
 https://meganlavallee.github.io/Weather_Dashboard/
