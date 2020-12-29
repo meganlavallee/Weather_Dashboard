@@ -54,4 +54,38 @@
 
 .row1{
   display: inline;
+  border: inherit;
+  border-color: lawngreen;
+}
+
+.col{
+  display: inline-block;
+  width: fit-content;
+  border: inherit;
+  border-color: lawngreen;
+  border-style: dashed;
+}
+
+.forecast{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  display: inline;
+  block-size: 20%;
+}
+
+.forecast1{
+  border-style: dotted;
+}
+.forecast2{
+  border-style: dashed;
+}
+.forecast3{
+  border-style: dotted;
+}
+.forecast4{
+  border-style: dashed;
+}
+.forecast5{
+  border-style: dotted;
 }

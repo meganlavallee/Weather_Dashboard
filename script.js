@@ -82,3 +82,28 @@ function getWeather() {
     });
   });
 }
+
+function searchHistory(savedcities) {
+
+  $("#saved-cities").append(
+      $("<button>").text(savedcities)
+          .attr("class", "btnCity btn-block col btn-outline-info")
+          .attr("id", savedcities)
+          .text(savedcities)
+  );
+}
+function renderLast(cityOnload) {
+  var cityOnload = localStorage.getItem("cityStored");
+  if (!cityOnload) {
+      return
+  }else {
+      getWeather(cityOnload, true);
+  }
+}
+$("#saved-cities").on("click", function (e) {
+  if (!e.target.matches(".btnCity")) return;
+
+  var savedcities = e.target.id;
+  getWeather(savedcities, false);
+  console.log(savedcities);
+});
