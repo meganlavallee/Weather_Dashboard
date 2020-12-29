@@ -47,3 +47,11 @@
 .card {
   background-color: lightgrey;
 }
+
+.forecast-title{
+  padding-left: 20%;
+}
+
+.row1{
+  display: inline;
+}
